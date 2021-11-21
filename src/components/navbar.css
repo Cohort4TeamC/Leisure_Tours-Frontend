@@ -1,0 +1,146 @@
+
+.nav{
+    background-color: rgb(0, 0, 0);
+    user-select: none;
+}
+.logo {
+    font-size: 35px !important;
+    color: white !important;
+    font-family: 'Amatic SC';
+    
+}
+
+.navbar{
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    font-family: 'Nunito Sans', sans-serif;
+
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+    top: 48px;
+    border-radius: 0px;
+    user-select: none !important;
+    margin-bottom: 2%;
+}
+.search-box{
+    border-radius: 0px !important;
+}
+.search-btn{
+    border-radius: 0px !important;
+
+}
+
+.menu-dropdown,.logo{
+    transition: 0.2s all linear;
+}
+.menu-dropdown{
+    font-size: 16px;
+}
+
+.logo:hover{
+    color: rgb(223, 223, 223) !important;
+}
+.menu-dropdown:hover{
+    background-color: rgb(95, 95, 95);
+    border-radius: 5px;
+    padding-left: 10px;
+    color: #e0e0e0;
+
+
+
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,.55);
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .show>.nav-link {
+    color: rgba(255,255,255,.55);
+
+}
+.contact-nbr{
+    font-size: 16px;
+}
+.nav-bar-link{
+    text-decoration: none;
+    color: rgba(255,255,255,.55);
+}
+.nav-bar-link:hover{
+    color: #e0e0e0;
+
+
+}
+.dropdown-btn{
+    background-color:transparent ;
+    border: none;
+    transition: 0.2s all linear;
+    margin-top: 2px;
+    text-align: inherit;
+    width: 100%;
+
+}
+.dropdown-btn:hover{
+    color: rgb(223, 223, 223) !important;
+
+    background-color:rgb(95, 95, 95) ;
+    border: none;
+}
+.dropdown-btn:focus{
+    box-shadow: none !important;
+    background-color:rgb(95, 95, 95) !important;
+
+
+}
+.dropdown-btn:active{
+    box-shadow: none !important;
+    background-color:rgb(95, 95, 95) !important;
+
+
+}
+
+.dropdown-btn:checked{
+    background-color: rgb(95, 95, 95) !important;
+    border-color: none !important;
+}
+.dropdown-btn:checked{
+    background-color: rgb(95, 95, 95) !important;
+
+}
+.nav-bar-links{
+    text-decoration: none;
+    color: rgba(255,255,255,.55);
+
+}
+.nav-bar-links:hover{
+    color: #e0e0e0 ;
+
+}
+.nav-bar-links-toggle{
+    text-decoration: none;
+    color: black;
+
+}
+.nav-bar-links-toggle:hover{
+    color: rgb(73, 71, 71);
+
+}
+
+
+@media only screen and (max-width:1230px) {
+    
+    .contact-nbr{
+        font-size: 15px;
+    }
+    .menu-dropdown{
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width:1180px) {
+    
+    .search-nav{
+        margin-bottom: 15px !important;
+    }    
+     
+
+}
+

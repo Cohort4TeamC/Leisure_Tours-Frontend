@@ -1,0 +1,61 @@
+.login-container{
+    margin-top: 20%;
+    margin-bottom: 10%;
+    height: 70vh;
+}
+.forget-container{
+    margin-top: 5%;
+}
+.login-title {
+    text-align: center !important;
+}
+
+.signin-page {
+    background-image: url('https://gizmodiva.com/wp-content/uploads/2017/10/SCOTT-A-WOODWARD_1SW1943-1170x689.jpg');
+    background-size: cover;
+    padding-bottom: 2%;
+    
+}
+.email {
+    padding-top: 0% !important;
+}
+
+.password {
+    padding-top: 0% !important;
+    padding-bottom: 0% !important;
+    text-align: center;
+
+}
+.forget-password{
+    cursor: pointer;
+    user-select: none;
+    color: gray !important;
+    
+    
+}
+.forget-password:active{
+    color: rgb(71, 71, 71) !important;
+}
+.btn-submit{
+    text-align: right;
+}
+.card-class{
+    margin: 0 auto;
+}
+.dont-have-account{
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 0px;
+    margin-top: 5px;
+}
+
+.request-sent{
+    font-family: 'Andada Pro', serif;
+    text-align: center;
+}
+.request-show{
+    display: block;
+}
+.request-hide{
+    display: none;
+}

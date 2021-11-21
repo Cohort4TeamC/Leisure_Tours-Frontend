@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Nunito+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+
+.paymentproceed-confirm-page{
+    background-image: url('https://images.unsplash.com/photo-1501594907352-04cda38ebc29?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c2FuJTIwZnJhbmNpc2NvfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80');
+    background-size: cover;
+    min-height: 60vh;
+    
+}
+.paymentproceed-confirm-page-layer{
+    background-color: rgba(0, 0, 0, 0.45);
+    min-height: 60vh;
+    
+    
+}
+.paymentproceed-confirm-title{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    transform: translate(0%, 210%);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.payment-booking-details{
+    background-color: black;
+    color: white;
+    margin: 1%;
+    padding: 10px;
+    border-radius: 10px;
+    height: fit-content;
+
+}
+.payment-booking-details p{
+    line-height: 10px;
+    color: rgb(165, 165, 165);
+
+}
+
+.profile-container{
+    flex-direction: column;
+    margin: 2% ;
+
+
+}
+.payment-main-container{
+    background-color: black;
+    color: white;
+    margin: 2%;
+    border-radius: 10px;
+    padding: 0% 1%;
+
+}
+.active-profile p{
+    line-height: 10px;
+    color: rgb(165, 165, 165);
+
+}
+.card-payment-btn{
+    margin: 10px;
+    margin-left: 0px;
+    width: 200px;
+}
+.card-number{
+    justify-content: space-around;
+
+}
+.card-number,.three-digit{
+    margin-bottom: 10px;
+
+}
+.payment-box-inner-text{
+    font-size: 16px;
+    color: rgb(165, 165, 165);
+    font-family: 'Nunito Sans', sans-serif;
+
+
+}
+.payment-btns-procedure{
+    align-self: flex-end;
+    margin-bottom: 20px;
+}
+.confirm,.cancel{
+    font-size: 11px;
+    font-weight: 500;
+    margin-top: 10px;
+    width: 94%;
+
+}
+.payment-procedure-container{
+    margin-top: 3%;
+    margin-bottom: 5%;
+    
+
+}
+.payment-procedure-container h5{
+    font-family: 'Roboto Condensed', sans-serif;
+
+
+}
+.payment-main-container p{
+    font-family: 'Nunito Sans', sans-serif;
+
+
+}
+.p-procedure-title{
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 3%;
+}
+.active-profile{
+    margin-bottom: 20px;
+}
+.profile-container{
+    margin-top: 0px !important;
+}
+
+
+@media only screen and (max-width:470px) {
+    
+    .paymentproceed-confirm-page{
+        min-height: 40vh;
+        
+    }
+    .paymentproceed-confirm-page-layer{
+        min-height: 40vh;
+        
+        
+    }
+    .paymentproceed-confirm-title{
+        transform: translate(0%, 50%) !important;
+    font-size: 45px;
+
+    }
+    
+    }

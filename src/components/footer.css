@@ -1,0 +1,71 @@
+.nav-footer{
+    color: gray;
+    padding-top: 1%;
+    background-color: black;
+    user-select: none;
+
+}
+.rights{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    color: gray !important;
+    text-align: center;
+    background-color: rgb(12, 12, 12);
+}
+.footer-container{
+    width: 100%;
+}
+.footer-links{
+    list-style: none;
+    margin-top: 2%;
+}
+.footer-links li a{
+    cursor: pointer;
+}
+.footer-links li:hover{
+    color: rgb(104, 104, 104);
+}
+.header-link{
+    color: rgb(170, 170, 170);
+    font-weight: 600;
+    margin-bottom: 1%;
+}
+.header-link:hover{
+    color: rgb(170, 170, 170) !important;
+
+}
+.social-links{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.fb,.twitter,.whatsapp{
+    color: gray;
+    font-size: 20px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.card-1 img{
+    width: 45%;
+    padding-bottom: 5px;
+}
+.card-2 img{
+    width: 45%;
+}
+.row {
+  --bs-gutter-x: 0rem !important ;
+}
+.cards{
+    padding-left: 5%;
+}
+.footer-bar-link{
+    text-decoration: none;
+    color: rgba(255,255,255,.55);
+
+}
+.footer-bar-link:hover{
+    color: #696969;
+
+
+}

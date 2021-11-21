@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Nunito+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+
+.p-detail-page{
+    background-image: url('https://pix.avax.news/avaxnews/25/4f/00014f25.jpeg');
+    background-size: cover;
+    min-height: 60vh;
+    
+}
+.p-detail-page-layer{
+    background-color: rgba(0, 0, 0, 0.45);
+    min-height: 60vh;
+    
+    
+}
+.feedback-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 1%;
+}
+.p-detail-title{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    transform: translate(0%, 200%);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.package-details{
+    padding-top: 5%;
+    background-image: url('https://gizmodiva.com/wp-content/uploads/2017/10/SCOTT-A-WOODWARD_1SW1943-1170x689.jpg');
+    background-size: cover;
+    padding-bottom: 2%;
+ 
+
+}
+.p-details-main-container{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-bottom: 4%;
+    background-color: rgba(0, 0, 0, 0.322);
+}
+.package-detail-box{
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px 10px 0px 10px;
+    transition: all 0.2s linear;
+    background-color: #202020 ;
+    color: white;
+    margin: 5px;
+    margin-bottom: 3%;
+
+
+}
+.package-detail-box h6{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 17px;
+
+}
+.package-detail-box p{
+    font-family: 'Nunito Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.package-detail-box:hover{
+    background-color:  #2c2c2c ;
+
+}
+.upper-detail-boxes{
+    margin: 3% 0%;
+}
+.book-now{
+    text-align: center;
+    font-size: 10px;
+    background-color: #494949;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Andada Pro', serif;
+    cursor: pointer;
+    transition: 0.2s all linear;
+    border: none;
+    margin: 2px;
+}
+.book-now a{
+    text-decoration: none;
+    color: white;
+}
+.book-now:hover{
+    background-color: #5f5f5f;
+
+}
+
+.overview{
+    height: 250px;
+    text-align: left;
+    padding: 10px;
+}
+.feedback{
+    text-align: left;
+    padding: 10px;
+}
+.mini-details{
+    text-align: left;
+    padding: 10px;
+    min-height: 60px;
+}
+.feedback-input{
+    width: 70%;
+}
+.feedback-btn{
+    float: right;
+    margin-right: 10px;
+    padding: 10px;
+    font-size: 12px;
+}
+.activity-list li{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+}
+@media only screen and (max-width:470px) {
+    
+    .p-detail-page{
+        min-height: 40vh;
+        
+    }
+    .p-detail-page-layer{
+        min-height: 40vh;
+        
+        
+    }
+    .feedback-input{
+        width: 60%;
+    }
+    .p-detail-title{
+        transform: translate(0%, 70%) !important;
+    font-size: 45px;
+
+    }
+    
+    }

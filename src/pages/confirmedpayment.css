@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Nunito+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+.nav-comp{
+    position: sticky !important;
+    top: 0;
+    left: 0;
+    z-index: 100000;
+
+}
+.confirmed-page{
+    background-image: url('https://images.unsplash.com/photo-1501594907352-04cda38ebc29?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c2FuJTIwZnJhbmNpc2NvfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80');
+    background-size: cover;
+    min-height: 60vh;
+    
+}
+.confirmed-page-layer{
+    background-color: rgba(0, 0, 0, 0.45);
+    min-height: 60vh;
+    
+    
+}
+.confirmed-title {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    transform: translate(0%, 210%);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.payment-confirm-container{
+    justify-content: space-around;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    }
+    .confirmation-text{
+        text-align: center;
+
+        justify-content: center !important;
+        background-color: black;
+        border-radius: 10px;
+        margin-top: 2%;
+        padding: 10px;
+        margin: 0 auto;
+        color: rgb(165, 165, 165);
+
+    }
+    .confirmation-text h4{
+        margin-top: 3%;
+        color: white;
+    
+    }
+
+    .confirmation-text p{
+        padding: 20px;
+        width: 90%;
+        margin: 0 auto;
+        color: rgb(165, 165, 165);
+    }
+
+@media only screen and (max-width:470px) {
+    
+    .confirmed-page{
+        min-height: 40vh;
+        
+    }
+    .confirmed-page-layer{
+        min-height: 40vh;
+        
+        
+    }
+    .confirmed-title{
+        transform: translate(0%, 50%) !important;
+    font-size: 45px;
+
+    }
+    
+    }

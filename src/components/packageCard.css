@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Andada+Pro:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Scheherazade+New:wght@700&display=swap');
+
+
+.card-package{
+    margin-bottom: 30px;
+    text-align: center;
+    padding-left: 8px;
+    font-family: 'Nunito Sans', sans-serif;
+
+}
+.card-container{
+    border-radius: 0px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.package-name{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #3f3f3f;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Andada Pro', serif;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+.book-now-homepage{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #494949;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Andada Pro', serif;
+    cursor: pointer;
+    transition: 0.2s all linear;
+}
+.book-now-homepage:hover{
+    color: #3f3f3f;
+    background-color: rgb(207, 207, 207);
+}
+.price-package{
+    font-family: 'Scheherazade New', serif;
+    font-size: 20px;
+    text-align: center;
+    color: #5e5e5e;
+
+}
+
+.pkg-include{
+    font-weight: 600;
+    font-family: 'Nunito Sans', sans-serif;
+
+}

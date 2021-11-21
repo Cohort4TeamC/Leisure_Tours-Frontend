@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Nunito+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+
+.booktour-confirm-page{
+    background-image: url('https://images.unsplash.com/photo-1501594907352-04cda38ebc29?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c2FuJTIwZnJhbmNpc2NvfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80');
+    background-size: cover;
+    min-height: 60vh;
+    
+}
+.booktour-confirm-page-layer{
+    background-color: rgba(0, 0, 0, 0.45);
+    min-height: 60vh;
+    
+    
+}
+.booktour-confirm-title{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    transform: translate(0%, 210%);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.inside-row{
+    flex-direction: column;
+    color: white;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 600px;
+    margin: 10px;
+    font-family: 'Roboto Condensed', sans-serif;
+    
+}
+.main-row{
+    background-color: black;
+    margin-bottom: 2%;
+    padding-right: 15px;
+
+}
+
+.inner-col{
+    padding: 15px;
+    margin: 10px;
+    border-right: 2px solid gray;
+    
+}
+
+.inner-col p{
+    margin-top: 5px;
+    margin-bottom: 0px;
+    color: rgb(165, 165, 165);
+    font-family: 'Nunito Sans', sans-serif;
+
+}
+.booking-details{
+    margin-top: 3%;
+    margin-bottom: 6%;
+    text-align: center;
+   text-transform: uppercase;
+
+}
+.check-box-confirmation{
+    background-color: black;
+    color: white;
+    padding: 2%;
+    justify-content: space-around;
+    margin-bottom: 6%;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+.confirm-proceed{
+    align-self: end;
+
+}
+
+.check-box-inner-text{
+    font-family: 'Nunito Sans', sans-serif;
+
+}
+
+.feedback-btn:disabled{
+    background-color: #5F5F5F;
+}
+
+
+@media only screen and (max-width:470px) {
+    
+    .booktour-confirm-page{
+        min-height: 40vh;
+        
+    }
+    .booktour-confirm-page-layer{
+        min-height: 40vh;
+        
+        
+    }
+    .booktour-confirm-title{
+        transform: translate(0%, 50%) !important;
+    font-size: 45px;
+
+    }
+    
+    }

@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Nunito+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+
+.policies-page{
+    background-image: url('https://letsvisitkashmir.files.wordpress.com/2021/01/budhism-chumathang-countryside-explore-wallpaper-preview.jpg');
+    background-size: cover;
+    min-height: 60vh;
+    
+}
+.policies-page-layer{
+    background-color: rgba(0, 0, 0, 0.45);
+    min-height: 60vh;
+    
+    
+}
+.policies-title{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    transform: translate(0%, 200%);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.terms-conditions{
+    text-align: center;
+    width: fit-content;
+    margin: 0px auto;
+    margin-top: 20px;
+    line-height: 40px;
+}
+.policies-container{
+    padding-top: 2%;
+    padding-bottom: 2%;
+}

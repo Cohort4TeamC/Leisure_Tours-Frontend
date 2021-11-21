@@ -1,0 +1,112 @@
+.about-data-container{
+    padding-bottom: 4%;
+}
+.story-title,.mission-title{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.member-title-header{
+
+    font-size: 30px;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    
+}
+
+.story-container{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.mission-container{
+    
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.story-text,.mission-text{
+    text-align: justify;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #363636;
+}
+
+.partner-title{
+    font-size: 20px;
+    margin-top: 2%;
+    text-align: center;
+font-weight: 700;
+text-transform: uppercase;
+letter-spacing: 5px;
+font-family: 'Nunito Sans', sans-serif;
+color: #363636; 
+}
+
+.member-title{
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: right;
+    padding-right: 10px;
+font-weight: 600;
+font-family: 'Nunito Sans', sans-serif;
+color: #ffffff; 
+}
+
+.member-image{
+    width: 180px;
+    height: 180px;
+    border-radius: 100%;
+    margin-left: 25px;
+    margin-top: 18px;
+}
+.member-img-container{
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-top-right-radius: 50%;
+    background-color: #4d4d4d;
+    width: 230px;
+    margin-bottom: 10%;
+    transition: all 0.2s linear;
+
+}
+.member-img-container:hover{
+    opacity: 0.85;
+}
+.member-img-container:hover p{
+    opacity: 0.80;
+}
+
+.partner-img{
+    width: 100%;
+    height: 70%;
+    padding-left: 2%;
+    padding-right: 2%;
+    transition: all 0.2s linear;
+
+
+}
+
+.partner-img:hover{
+    opacity: 0.85;
+}
+
+@media only screen and (max-width:765px) {
+    
+    .mission-container{
+        flex-direction: column-reverse;
+    }
+    .member-img-container{
+        margin: 4% auto;
+        
+    }
+    
+
+}

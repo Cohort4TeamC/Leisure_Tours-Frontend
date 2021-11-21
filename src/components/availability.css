@@ -1,0 +1,74 @@
+.availability-search{
+    background-color: black;
+}
+.inputs-availability{
+    width: 80%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.label{
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.date-picker {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    appearance: none;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.availability-btn{
+   
+    width: 100%;
+}
+
+.search-container{
+    text-align: center;
+}
+.search-modal-header{
+    border-bottom: none;
+
+}
+.search-modal-list{
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+.search-modal-list li{
+    font-size: 20px;
+font-family: 'Nunito Sans', sans-serif !important;
+padding: 10px;
+list-style: none;
+}
+.search-modal-list li span{
+    color: black;
+    font-weight: 600;
+    font-family: 'Roboto Condensed', sans-serif;
+    float: right;
+
+}
+.search-checkbox{
+    font-weight: 600;
+    text-align: center;
+}
+.search-modal-container h4{
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+@media only screen and (max-width:760px) {
+    
+    .label{
+        font-size: 14px ;
+    }
+    
+
+}

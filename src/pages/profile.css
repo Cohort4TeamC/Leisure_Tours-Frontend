@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Nunito+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+
+.input-values{
+    width: 80%;
+    border: 2px solid #494949;
+    padding: 3px 8px ;
+    border-radius: 10px;
+}
+.profile-container{
+    background-color: black;
+    margin: 3% auto !important;
+    color: white;
+    padding: 5%;
+    padding-top: 2% !important;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-top: 3% !important;
+}
+.input-titles{
+    padding: 5px 5px ;
+
+
+}
+.profile-container h6{
+    margin-bottom: 20px;
+}
+.profile-container p{
+    font-family: 'Nunito Sans', sans-serif;
+
+
+}
+.inner-profile-container{
+ justify-content: center;       
+}
+.profile-header{
+    text-align: center;
+}
+.profile-update-btn{
+    text-align: center;
+    font-size: 15px;
+    background-color: #494949;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Andada Pro', serif;
+    cursor: pointer;
+    transition: 0.2s all linear;
+    border: none;
+    width: 200px;
+    margin-top: 10px;
+
+}
+.profile-btn:hover,.profile-update-btn:hover{
+    background-color: #3a3a3a;
+
+}
+.profile-btn:focus,.profile-update-btn:focus{
+    background-color: #3a3a3a;
+
+}
+.profile-btn{
+    text-align: center;
+    font-size: 14px;
+    background-color: #494949;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Andada Pro', serif;
+    cursor: pointer;
+    transition: 0.2s all linear;
+    border: none;
+    width: 150px;
+
+}
+.profile-image-container{
+    text-align: center;
+}
+.profile-image{
+    width: 180px;
+    border-radius: 200px;
+    border: 5px solid rgb(104, 104, 104);
+    margin-bottom: 10px;
+}
+
+.profile-forget-container{
+    margin-top: 0%;
+    z-index: 1000000;
+}
+
+.icon-logout{
+    text-align: right;
+}
+.dropstart .dropdown-toggle::before {
+    display: none;
+
+}
+.drop-btn .dropdown-toggle{
+border-radius: 100%;
+width: 50px;
+height: 50px;
+font-size: 20px;
+}
+.drop-btn .dropdown-menu.show {
+    display: block;
+    background-color: #3a3a3acc;
+    margin-right: 5px;  
+    margin-top: 4px;
+
+}
+.user-profile{
+    margin: 10px;
+}
+.user-profile a{
+    text-decoration: none;
+    color: white;
+}
+.drop-btn .dropdown-item{
+    color: white;
+    font-family: 'Andada Pro', serif;
+
+}
+.drop-btn .dropdown-item:hover{
+    color: black !important;
+}
+@media only screen and (max-width:780px) {
+   .input-values{
+    width: 100%;
+
+
+   }
+   .profile-image-container{
+    margin-top: 20px;
+}
+
+
+
+}
+
+@media only screen and (max-width:580px) {
+    .profile-forget-container{
+        margin-top: 15%;
+        padding-bottom: 15%;
+        width: 98%;
+    }
+    
+}

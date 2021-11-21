@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Nunito+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+.nav-comp{
+    position: sticky !important;
+    top: 0;
+    left: 0;
+    z-index: 100000;
+
+}
+.cancelledpayment-page{
+    background-image: url('https://images.unsplash.com/photo-1501594907352-04cda38ebc29?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c2FuJTIwZnJhbmNpc2NvfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80');
+    background-size: cover;
+    min-height: 60vh;
+    
+}
+.cancelledpayment-page-layer{
+    background-color: rgba(0, 0, 0, 0.45);
+    min-height: 60vh;
+    
+    
+}
+.cancelledpayment-title {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    transform: translate(0%, 210%);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.canclled-btns{
+    float: right;
+
+}
+.cancelled-text p{
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+}
+.reservation-note{
+    color: white !important;
+}
+@media only screen and (max-width:780px) {
+    .canclled-btns{
+       float: none;
+    
+    }
+}
+@media only screen and (max-width:470px) {
+    
+    .cancelledpayment-page{
+        min-height: 40vh;
+        
+    }
+    .cancelledpayment-page-layer{
+        min-height: 40vh;
+        
+        
+    }
+    .cancelledpayment-title{
+        transform: translate(0%, 50%) !important;
+    font-size: 45px;
+
+    }
+    
+    }

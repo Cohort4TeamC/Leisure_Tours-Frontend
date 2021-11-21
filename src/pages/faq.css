@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Nunito+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+
+.faq-page{
+    background-image: url('https://pix.avax.news/avaxnews/25/4f/00014f25.jpeg');
+    background-size: cover;
+    min-height: 60vh;
+    
+}
+.faq-page-layer{
+    background-color: rgba(0, 0, 0, 0.45);
+    min-height: 60vh;
+    
+    
+}
+.faq-title{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    transform: translate(0%, 200%);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.faq-container p{
+    font-family: 'Nunito Sans', sans-serif;
+
+}
+.faq-text{
+    text-align: justify;
+}
+.left-col{
+    padding-right: 20px;
+}
+.right-col{
+    padding-left: 20px;
+}
+
+@media only screen and (max-width:768px) {
+    .left-col{
+        padding-right: 0px;
+    }
+    .right-col{
+        padding-left: 0px;
+    }
+    
+}
+@media only screen and (max-width:470px) {
+    
+    .faq-page{
+        min-height: 40vh;
+        
+    }
+    .faq-page-layer{
+        min-height: 40vh;
+        
+        
+    }
+    .faq-title{
+        transform: translate(0%, 120%) !important;
+    font-size: 45px;
+
+    }
+    
+    }
