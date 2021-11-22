@@ -1,3 +1,3 @@
-const baseURL = 'http://localhost:8080/com.tourismapp/webapi'
+const baseURL = 'https://leisure-tours-backend-heroku.herokuapp.com/webapi'
 
 export default baseURL

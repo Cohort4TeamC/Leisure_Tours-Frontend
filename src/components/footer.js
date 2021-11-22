@@ -29,7 +29,7 @@ const NavbarComp = (props) => {
       <Col md={3} sm={6}>
 
         <ul className="footer-links">
-          <li><Link className="footer-bar-link" to="faq">Recent quarries</Link></li>
+          <li><Link className="footer-bar-link" to="faq">FAQ</Link></li>
           <li><Link className="footer-bar-link" to="policies">Policies</Link></li>
           <li><Link className="footer-bar-link" to="activities" > Activities</Link></li>
           <li><Link className="footer-bar-link" to="booktour">Packages</Link></li>
